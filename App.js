@@ -1,6 +1,4 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import ButtonComponent from './baseComponents/button';
+import { StyleSheet, View } from 'react-native';
 
 export default function App() {
   return (
