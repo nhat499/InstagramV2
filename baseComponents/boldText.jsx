@@ -1,17 +1,14 @@
 
 import { Text } from "react-native";
 
-const Headers = ({ children }) => {
+const BoldText = ({ children }) => {
     return (
         <Text style={{
             color: "black",
-            fontSize: "20px",
+            fontSize: "12px",
             fontWeight: "bold",
         }}>{children}</Text>
-
-
-
     );
 }
 
-export default Headers;
+export default BoldText;
